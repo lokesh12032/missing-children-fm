@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Missing Children Finder</title>
+</head>
+<body>
+    <h2>Missing Children Facial Recognition</h2>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <p>Missing Child Image</p>
+        <input type="file" name="missing" required>
+
+        <p>Found Person Image</p>
+        <input type="file" name="found" required>
+
+        <br><br>
+        <button type="submit">Compare Faces</button>
+    </form>
+</body>
+</html>
